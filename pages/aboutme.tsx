@@ -22,6 +22,7 @@ import GithubLogo from "../public/techstack/github.png";
 import ReactGithubCalender from "../components/ReactGithubCalender";
 import Image from "next/image";
 import Link from "next/link";
+import LeetCodeStats from "../components/LeetCodeStats";
 
 const AboutMe = () => {
   return (
@@ -158,14 +159,16 @@ const AboutMe = () => {
               <span className="!text-white">
                 <ReactGithubCalender />
               </span>
-              {userData.about.description?.map((desc, idx) => (
+              {/* {userData.about.description?.map((desc, idx) => (
                 <p
                   key={idx}
                   className="text-xl text-gray-700 mb-4 dark:text-gray-300 "
                 >
                   {desc}
                 </p>
-              ))}
+              ))} */}
+
+              <LeetCodeStats />
 
               <h1 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">
                 Tech Stack

@@ -24,6 +24,7 @@
     "react-bricks-ui": "^0.4.3",
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
+    "react-markdown": "^8.0.3",
     "react-slick": "^0.29.0"
   },
   "devDependencies": {

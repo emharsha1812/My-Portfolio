@@ -7,7 +7,12 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint",
+    "export": "yarn run build && next export && mvout _static"
+  },
+  "engines": {
+    "node": "14.x"
   },
   "dependencies": {
     "daisyui": "^2.19.0",

@@ -27,12 +27,12 @@ const Header: React.FC = () => (
                 Blog
               </a>
             </Link>
-            <Link href="/projects">
+            {/* <Link href="/webdev2">
               <a className="text-gray-500 hover:text-green-400 hover:animate-bounce">
                 {" "}
                 All Projects
               </a>
-            </Link>
+            </Link> */}
             <Link href="https://drive.google.com/file/d/1mq4xgR7rkWiYJqHvebqdO5E7uwC0-WpR/view?usp=sharing">
               <a
                 // className="btn btn-outline btn-success"

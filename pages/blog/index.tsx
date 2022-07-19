@@ -24,6 +24,16 @@ const BlogList: React.FC<HomeProps> = ({ tags, posts, error }) => {
       <h1 className="text-center text-2xl sm:text-6xl lg:text-5xl leading-none font-black tracking-tight text-gray-100 pb-4 mt-10 sm:mt-12 mb-4">
         Tech Niche
       </h1>
+      <h2 className="text-center font-light leading-none  tracking-tight text-gray-100 ">
+        <a
+          className="link link-primary text-center text-lg lg:text-lg no-underline"
+          href="https://emharsha1812.hashnode.dev/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          See more of my blogs here 🔗
+        </a>
+      </h2>
       <div className="max-w-6xl mx-auto px-8 py-16 flex space-x-24   text-gray-100">
         <section className="flex-[2] space-y-8 text-gray-100">
           <h2 className="text-pink-500 uppercase mb-8 tracking-widest font-bold">

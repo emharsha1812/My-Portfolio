@@ -23,10 +23,12 @@ import ReactGithubCalender from "../components/ReactGithubCalender";
 import Image from "next/image";
 import Link from "next/link";
 import LeetCodeStats from "../components/LeetCodeStats";
+import Header from "../components/header";
 
 const AboutMe = () => {
   return (
     <div>
+      <Header />
       <section className=" bg-gray-900 ">
         <div className="max-w-6xl mx-auto h-48">
           <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">

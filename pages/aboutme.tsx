@@ -11,14 +11,6 @@ import NextLogo from "../public/techstack/nextjs.png";
 import DockerLogo from "../public/techstack/docker.png";
 import GraphQlLogo from "../public/techstack/graphql.png";
 
-import NodeLogo from "../public/techstack/nodejs.png";
-import ExpressLogo from "../public/techstack/express.png";
-import MongoLogo from "../public/techstack/mongodb.png";
-import PostgresLogo from "../public/techstack/postgresql.png";
-import HerokuLogo from "../public/techstack/heroku.png";
-import GitLogo from "../public/techstack/git.png";
-import GithubLogo from "../public/techstack/github.png";
-
 import ReactGithubCalender from "../components/ReactGithubCalender";
 import Image from "next/image";
 import Link from "next/link";

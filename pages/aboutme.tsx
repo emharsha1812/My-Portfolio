@@ -13,7 +13,7 @@ import GraphQlLogo from "../public/techstack/graphql.png";
 
 import ReactGithubCalender from "../components/ReactGithubCalender";
 import Image from "next/image";
-import Link from "next/link";
+
 import LeetCodeStats from "../components/LeetCodeStats";
 import Header from "../components/header";
 

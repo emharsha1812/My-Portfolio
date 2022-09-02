@@ -104,7 +104,7 @@ const userData = {
     },
   ],
   resumeUrl:
-    "https://drive.google.com/drive/folders/1WnwDGF6zPR9Y9cL6Idhrvn0uQUGcP8WF?usp=sharing",
+    "https://drive.google.com/drive/folders/1wdIqN8Z3nynkbo7gz5ZwdG5b0nK3MCnq?usp=sharing",
   socialLinks: {
     instagram: "https://www.instagram.com/emharsha_1812/",
     twitter: "https://twitter.com/emharsha",

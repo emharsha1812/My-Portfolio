@@ -1,15 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
 import userData from "../constants/userData";
-import JS from "../public/techstack/javascript.png";
-import TS from "../public/techstack/typescript.png";
-import Cplusplus from "../public/techstack/c++.png";
-import Ruby from "../public/techstack/ruby.png";
-import TailwindCSS from "../public/techstack/tailwindcss.png";
-import FirebaseLogo from "../public/techstack/firebase.png";
-import ReactLogo from "../public/techstack/react.png";
-import NextLogo from "../public/techstack/nextjs.png";
-import DockerLogo from "../public/techstack/docker.png";
-import GraphQlLogo from "../public/techstack/graphql.png";
 
 import ReactGithubCalender from "../components/ReactGithubCalender";
 import Image from "next/image";
@@ -170,65 +160,86 @@ const AboutMe = () => {
               <div className="flex flex-row flex-wrap mt-8 gap-x-8 gap-y-4">
                 {/* Images */}
                 <Image
-                  className="h-20 w-20 mx-4 my-4"
-                  src={JS}
                   alt="JS"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                  className="h-20 w-20 mx-4 my-4"
                   height={80}
                   width={80}
                 />
                 <Image
                   className="h-20 w-20 mx-4 my-4"
-                  src={TS}
-                  alt="JS"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg"
+                  alt="Angular"
                   height={80}
                   width={80}
                 />
                 <Image
                   className="h-20 w-20 mx-4 my-4"
-                  src={Cplusplus}
-                  alt="JS"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+                  alt="TypeScript"
                   height={80}
                   width={80}
                 />
                 <Image
                   className="h-20 w-20 mx-4 my-4"
-                  src={Ruby}
-                  alt="JS"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+                  alt="cplusplus"
                   height={80}
                   width={80}
                 />
                 <Image
                   className="h-20 w-20 mx-4 my-4"
-                  src={NextLogo}
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg"
+                  alt="Ruby"
+                  height={80}
+                  width={80}
+                />
+                <Image
+                  className="h-20 w-20 mx-4 my-4"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg"
                   alt="Nextjs"
                   height={80}
                   width={80}
                 />
                 <Image
                   className="h-20 w-20 mx-4 my-4"
-                  src={GraphQlLogo}
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg"
                   alt="GraphQL"
                   height={80}
                   width={80}
                 />
                 <Image
                   className="h-20 w-20 mx-4 my-4"
-                  src={FirebaseLogo}
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
                   alt="Firebase"
                   height={80}
                   width={80}
                 />
                 <Image
                   className="h-20 w-20 mx-4 my-4"
-                  src={DockerLogo}
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg"
+                  alt="Google Cloud"
+                  height={80}
+                  width={80}
+                />
+                <Image
+                  className="h-20 w-20 mx-4 my-4"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg"
                   alt="Docker"
                   height={80}
                   width={80}
                 />
                 <Image
                   className="h-20 w-20 mx-4 my-4"
-                  src={TailwindCSS}
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
                   alt="Tailwind CSS"
+                  height={80}
+                  width={80}
+                />
+                <Image
+                  className="h-20 w-20 mx-4 my-4"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+                  alt="Figma"
                   height={80}
                   width={80}
                 />

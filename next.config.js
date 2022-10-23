@@ -12,4 +12,8 @@ module.exports = withPWA({
     defaultLocale: "en",
     localeDetection: false,
   },
+
+  images: {
+    domains: ["cdn.jsdelivr.net"],
+  },
 });

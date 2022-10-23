@@ -13,17 +13,17 @@ const Header: React.FC = () => (
           /> */}
           <div className="sm:ml-8 flex space-x-5 text-center text-lg">
             <Link href="/">
-              <a className="text-gray-500 hover:text-green-400 hover:animate-bounce  ">
+              <a className="text-gray-500 hover:text-green-400 hover:animate-pulse  ">
                 Home
               </a>
             </Link>
             <Link href="/aboutme">
-              <a className="text-gray-500 hover:text-green-400 hover:animate-bounce ">
+              <a className="text-gray-500 hover:text-green-400 hover:animate-pulse ">
                 About Me
               </a>
             </Link>
             <Link href="/blog">
-              <a className="text-gray-500 hover:text-green-400 hover:animate-bounce">
+              <a className="text-gray-500 hover:text-green-400 hover:animate-pulse">
                 Blog
               </a>
             </Link>
@@ -37,7 +37,7 @@ const Header: React.FC = () => (
               <a
                 // className="btn btn-outline btn-success"
                 download="Harshwardhan's Resume"
-                className="text-gray-500 hover:text-green-400 hover:animate-bounce"
+                className="text-gray-500 hover:text-green-400 hover:animate-pulse"
               >
                 Download CV
               </a>

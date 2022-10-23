@@ -1,12 +1,21 @@
-const withPWA = require("next-pwa");
+// const withPWA = require("next-pwa");
+
+// module.exports = withPWA({
+//   // pwa: {
+//   //   dest: "public",
+//   //   register: true,
+//   //   skipWaiting: true,
+//   // },
+// });
+
+const withPWA = require("next-pwa")({
+  dest: "public",
+  register: true,
+  skipWaiting: true,
+});
 
 module.exports = withPWA({
-  pwa: {
-    dest: "public",
-    register: true,
-    skipWaiting: true,
-  },
-
+  // next.js config
   i18n: {
     locales: ["en"], // Add your languages here
     defaultLocale: "en",

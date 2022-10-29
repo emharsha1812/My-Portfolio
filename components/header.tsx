@@ -33,7 +33,7 @@ const Header: React.FC = () => (
                 All Projects
               </a>
             </Link> */}
-            <Link href="https://drive.google.com/file/d/1mq4xgR7rkWiYJqHvebqdO5E7uwC0-WpR/view?usp=sharing">
+            <Link href="https://drive.google.com/file/d/1cnmR3YZf4M_QHSDwBgvw9k2CR_0WTCC-/view?usp=share_link">
               <a
                 // className="btn btn-outline btn-success"
                 download="Harshwardhan's Resume"

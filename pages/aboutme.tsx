@@ -168,8 +168,8 @@ const AboutMe = () => {
                 />
                 <Image
                   className="h-20 w-20 mx-4 my-4"
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg"
-                  alt="Angular"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                  alt="HTML5"
                   height={80}
                   width={80}
                 />
@@ -195,8 +195,8 @@ const AboutMe = () => {
                   width={80}
                 />
                 <Image
-                  className="h-20 w-20 mx-4 my-4"
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg"
+                  className="h-20 w-20 mx-4 my-4 text-white"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
                   alt="Nextjs"
                   height={80}
                   width={80}

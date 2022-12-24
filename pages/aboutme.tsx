@@ -11,7 +11,7 @@ const AboutMe = () => {
   return (
     <div>
       <Header />
-      <section className=" bg-gray-900 ">
+      <section className=" bg-grey-500 ">
         <div className="max-w-6xl mx-auto h-48">
           <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
             About Me.
@@ -160,8 +160,8 @@ const AboutMe = () => {
               <div className="flex flex-row flex-wrap mt-8 gap-x-8 gap-y-4">
                 {/* Images */}
                 <Image
-                  alt="JS"
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                  alt="Python"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
                   className="h-20 w-20 mx-4 my-4"
                   height={80}
                   width={80}
@@ -196,8 +196,8 @@ const AboutMe = () => {
                 />
                 <Image
                   className="h-20 w-20 mx-4 my-4 text-white"
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
-                  alt="Nextjs"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/solidity/solidity-original.svg"
+                  alt="Solidity"
                   height={80}
                   width={80}
                 />
@@ -224,8 +224,8 @@ const AboutMe = () => {
                 />
                 <Image
                   className="h-20 w-20 mx-4 my-4"
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg"
-                  alt="Docker"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+                  alt="nextjs"
                   height={80}
                   width={80}
                 />
@@ -240,6 +240,48 @@ const AboutMe = () => {
                   className="h-20 w-20 mx-4 my-4"
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
                   alt="Figma"
+                  height={80}
+                  width={80}
+                />
+                <Image
+                  className="h-20 w-20 mx-4 my-4"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"
+                  alt="Tensorflow"
+                  height={80}
+                  width={80}
+                />
+                <Image
+                  className="h-20 w-20 mx-4 my-4"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kaggle/kaggle-original-wordmark.svg"
+                  alt="kaggle"
+                  height={80}
+                  width={80}
+                />
+                <Image
+                  className="h-20 w-20 mx-4 my-4"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg"
+                  alt="OpenCV"
+                  height={80}
+                  width={80}
+                />
+                <Image
+                  className="h-20 w-20 mx-4 my-4"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg"
+                  alt="Pytorch"
+                  height={80}
+                  width={80}
+                />
+                <Image
+                  className="h-20 w-20 mx-4 my-4"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg"
+                  alt="pandas"
+                  height={80}
+                  width={80}
+                />
+                <Image
+                  className="h-20 w-20 mx-4 my-4"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg"
+                  alt="Numpy"
                   height={80}
                   width={80}
                 />
